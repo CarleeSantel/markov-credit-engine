@@ -5,7 +5,7 @@ Credit ratings migrate. This tool models this migration as a Markov chain using 
 
 ---
 
-## Installation (run it yourself)
+## run it yourself
 
 Requires Python 3.9+.
 
@@ -18,7 +18,7 @@ streamlit run markov_credit.py
 
 ---
 
-## Installation (contribute)
+## contribute
 
 ```bash
 git clone https://github.com/CarleeSantel/markov-credit-engine.git
