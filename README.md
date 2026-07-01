@@ -1,7 +1,7 @@
 # Markov Credit Engine
 ## Corporate credit rating migration modeling, multi-period default probability, and portfolio stress testing
 
-Credit ratings don't stay put — they migrate. This tool models that migration as a Markov chain using S&P's historical transition matrix (1981–2023 averages), then uses Chapman-Kolmogorov matrix exponentiation to compute default probabilities at any horizon. The portfolio layer calculates expected loss across a book of rated credits (PD × LGD × EAD), and the stress testing tab lets you scale migration intensity to simulate recession-style deterioration. Default is modeled as an absorbing state, which means once a credit defaults, it stays there — as it should.
+Credit ratings migrate. This tool models this migration as a Markov chain using S&P's historical transition matrix (1981–2023 averages), then uses Chapman-Kolmogorov matrix exponentiation to compute default probabilities. The portfolio layer calculates expected loss across a book of rated credits (PD × LGD × EAD), and the stress testing tab lets you scale migration intensity to simulate recession-style deterioration. Default is modeled as an absorbing state, which means once a credit defaults, it stays.
 
 ---
 
